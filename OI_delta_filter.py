@@ -27,6 +27,3 @@ for index, row in df.iterrows():
   # Otherwise, do not trade
   else:
     trade_signals.append(0)
-
-# Add the trade signals to the DataFrame
-df['trade_signals'] = trade_signals
